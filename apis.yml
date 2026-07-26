@@ -1,7 +1,28 @@
 aid: finres
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finres.png
 name: Finres
-description: Finres is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Finres (finres SAS) is a French climate-risk analytics company building a decision platform
+  for agriculture. It translates climate hazards into economic consequences for farms, agricultural value
+  chains and territories, combining agronomic, pedological, climate and market data with AI models that
+  are peer-reviewed and validated against published research. Two productized offerings sit on top of the
+  platform - a farm-level economic and climate viability diagnostic (DPEC, currently in beta, seeded from
+  a grower's TelePAC parcel file and reference datasets such as Agreste, IPPAP and RICA) and bespoke
+  territorial or sector studies. Finres was founded by Florent Baarsch, previously with the World Bank,
+  the United Nations and climate research institutes, and its customers include the French government,
+  the World Bank, the Green Climate Fund, IFAD and the FAO. The company markets high-resolution data
+  delivery into customer decision systems, but as of this enrichment pass publishes no public developer
+  portal, API reference, machine-readable specification or SDK - access is arranged through a sales demo.
 url: https://raw.githubusercontent.com/api-evangelist/finres/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Climate
+- Agriculture
+- AgTech
+- Climate Risk
+- Analytics
+- Data
+- Sustainability
+- France
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/finres-domain-security.yml
+- type: Website
+  url: https://www.finres.org/
+- type: About
+  url: https://www.finres.org/about
+- type: Blog
+  url: https://www.finres.org/posts
+- type: Support
+  url: https://www.finres.org/contact
+- type: SignUp
+  url: https://www.finres.org/inscription
+- type: LLMsTxt
+  url: llms/finres-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

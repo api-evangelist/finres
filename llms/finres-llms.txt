@@ -1,0 +1,32 @@
+# Finres
+
+> Finres (finres SAS) is a French climate-risk analytics company whose platform translates
+> climate hazards into economic consequences for farms, agricultural value chains and
+> territories. It combines agronomic, pedological, climate and market data with
+> peer-reviewed AI models. Finres publishes no public API, developer portal or
+> machine-readable specification as of 2026-07-20; platform data delivery into customer
+> decision systems is arranged commercially through a sales demo.
+
+## Company
+
+- [Website](https://www.finres.org/): Company home page (French).
+- [About](https://www.finres.org/about): Company story, founder Florent Baarsch, and customer list (French government, World Bank, Green Climate Fund, IFAD, FAO).
+- [Science](https://www.finres.org/sciences): Model validation methodology, peer review process, and explainability approach.
+- [Contact](https://www.finres.org/contact): Contact form for the Finres team.
+
+## Solutions
+
+- [Diagnostic a l'exploitation](https://www.finres.org/solutions-diagnostic-exploitation): Farm-level economic and climate stress test with a tailored action plan.
+- [Diagnostic territorial](https://www.finres.org/solutions-diagnostic-territorial): Custom territorial and sector-level climate/economic analyses.
+- [DPEC beta](https://www.finres.org/beta): Beta program for the farm economic and climate viability diagnostic, seeded from a TelePAC parcel file plus Agreste, IPPAP and RICA reference data.
+- [Sign up for the beta](https://www.finres.org/inscription): Registration form for the DPEC test program.
+
+## Resources
+
+- [Blog](https://www.finres.org/posts): Dated posts on climate modelling, yield projection, forage autonomy, heat effects on milk production, and adaptation technology impact.
+
+## API surface
+
+- No public API, OpenAPI/Swagger, AsyncAPI, GraphQL, SDK, CLI, MCP server or webhook surface was found.
+- No /.well-known/ discovery documents are published (all probed paths return 404); see well-known/finres-well-known.yml.
+- Domain security posture probed and recorded in security/finres-domain-security.yml.

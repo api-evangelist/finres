@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: live probe of the finres.org well-known discovery surface
+host: https://www.finres.org
+note: >-
+  Every /.well-known/ discovery document probed returned 404. Finres publishes a
+  marketing site only (Next.js, no developer surface), so there is no OIDC/OAuth
+  metadata, API catalog, security.txt or AI plugin manifest to harvest. The apex
+  finres.org 301-redirects to www.finres.org; results below are from the canonical
+  www host. Recorded as a negative result - nothing was fabricated and no
+  WellKnown pointer is wired in apis.yml because no document exists.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
